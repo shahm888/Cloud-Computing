@@ -24,21 +24,21 @@ Step:7 Examining what nodes your app is running on.
 
 Contain week 5.pdf
 
-Creating a simple YAML descriptor for a pod
-Viewing application logs
-Sending requests to the pod
-Specifying labels when creating a pod
+Creating a simple YAML descriptor for a pod,
+Viewing application logs,
+Sending requests to the pod,
+Specifying labels when creating a pod,
 Overwrite labels:
-Listing pods using a label selector
-Using labels for categorizing worker nodes
-Looking up an object’s annotations
-Discovering other namespaces and their pods
+Listing pods using a label selector,
+Using labels for categorizing worker nodes,
+Looking up an object’s annotations,
+Discovering other namespaces and their pods,
 Creating a namespace
-Managing objects in other namespaces
-Deleting a pod by name
-Deleting pods by deleting the whole namespace
-Deleting all pods in a namespace, while keeping the namespace
-Deleting (almost) all resources in a namespace
+Managing objects in other namespaces,
+Deleting a pod by name,
+Deleting pods by deleting the whole namespace,
+Deleting all pods in a namespace, while keeping the namespace,
+Deleting (almost) all resources in a namespace,
 
 Contain week 6.pdf
 Create Nodejs app called “app.js” and Docker file
