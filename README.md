@@ -2,7 +2,8 @@
 Kubernetes is open-source orchestration software for deploying, managing, and scaling containers.
 Here, I have done handson experience on Minikube, is a tool that makes it easy to run Kubernetes locally. Minikube runs a single-node Kubernetes cluster inside a Virtual Machine (VM)(I used VM ware work stationplayer ) on your laptop for users looking to try out Kubernetes or develop with it day-to-day.
 
-Contain:week 3.pdf
+# Contain:week 3.pdf
+
 Creating running and sharing a container image
 1. Create the app
 a. Creating a trivial Node.js app
@@ -12,7 +13,8 @@ b. Creating a Docker file for the image
 Exploring the inside of a running container
 Pushing the image to an image registry
 
-Contain week 4.pdf
+# Contain week 4.pdf
+
 RUNNING YOUR FIRST APP ON KUBERNETES
 Step :1 Starting a Minikube virtual machine
 Step:2Displaying cluster information
@@ -22,7 +24,7 @@ Step:5 Creating a Service object & Listing Services
 Step:6 Horizontally scaling the application
 Step:7 Examining what nodes your app is running on.
 
-Contain week 5.pdf
+# Contain week 5.pdf
 
 Creating a simple YAML descriptor for a pod,
 Viewing application logs,
@@ -74,7 +76,7 @@ Running multiple pod instances in a Job
 Cronjob
 Understanding how scheduled jobs are run
 
-Contain week 11.pdf
+ # Contain week 11.pdf
 Setting environment variables for a container
 Making the interval in your fortune image configurable through an- n environment variable
 Step-1: Fortune script with interval configurable through environment variable.
@@ -83,7 +85,7 @@ Step-3: Build Docker image and push the image to DockerHub.
 Step-4: Create pod from fortune-pod-env.yaml
 Step-5: Logs to prove environment variable usage in Pod’s container
 
- Decoupling configuration with a ConfigMap
+# Decoupling configuration with a ConfigMap
 Step-1: Different ways to create ConfigMap
 a) Using the kubectl create configmap command and display yaml.
 b) Creating a ConfigMap entry from yaml.
@@ -104,7 +106,7 @@ a) Editing a ConfigMap
 b) Signaling Nginx to reload the config
 c) Understanding how the files are updated atomically
 
- USING SECRETS TO PASS SENSITIVE DATA TO CONTAINERS
+# USING SECRETS TO PASS SENSITIVE DATA TO CONTAINERS
 Introducing the default token Secret
 Creating a Secret
 Comparing ConfigMaps and Secrets
@@ -115,7 +117,7 @@ Understanding image pull Secrets
 Creating a Secret for authenticating with a Docker registry
 Using the docker-registry Secret in a pod definition
 
-contain week 12.pdf
+# contain week 12.pdf
 
 Exposing metadata through environment variables
 Downward API used in environment variables: downward-api-env.yaml
@@ -128,7 +130,7 @@ Remove the resources in downward-api-env.yaml file.
 Environment variables in the downward pod
 
 
-Passing metadata through files in a downwardAPI volume
+# Passing metadata through files in a downwardAPI volume
 Pod with a downwardAPI volume: downward-api-volume.yaml
 Files in the downwardAPI volume
 Displaying labels and annotations in the downwardAPI volume
